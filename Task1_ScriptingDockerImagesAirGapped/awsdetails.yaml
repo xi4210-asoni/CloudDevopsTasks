@@ -1,6 +1,7 @@
 cloudProvider: "AWS"
 cloudRegion: "ap-south-1"
-ecrRepoName: "awsecrrepository"
+ecrRepoName: "awsecrrepositorydemotesting1123"
+accountId: "902324519920"
 imagesList:
   - k8s.gcr.io/nginx:latest
-  - httpd:latest
+  - k8s.gcr.io/apache2:latest
