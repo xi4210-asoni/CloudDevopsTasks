@@ -1,0 +1,6 @@
+cloudProvider: "AWS"
+cloudRegion: "ap-south-1"
+ecrRepoName: "awsecrrepository"
+imagesList:
+  - k8s.gcr.io/nginx:latest
+  - httpd:latest
