@@ -4,4 +4,6 @@ xlr8s using as tarball
 - For optimizations - here they are using Log to - didnt implemented in the shell script
 3 different scripts for the clouds or need to put in the same script
 
+- Manifest lists approach is used to - put on the changes in the code 
+
 - Need to create checks for each operation - describe, delete, etc (error handling mostly)
