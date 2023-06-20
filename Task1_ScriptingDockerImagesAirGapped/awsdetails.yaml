@@ -1,9 +1,9 @@
-cloudProvider: "AWS"
-cloudRegion: "ap-south-1"
-ecrRepoName: "ecrns"
-accountId: "902324519920"
-imagesList:
-  # - k8s.gcr.io/nginx:latest
+cloud_provider: "AWS"
+cloud_region: "ap-south-1"
+ecr_repo_name: "ecrns"
+account_id: "902324519920"
+images_list:
+  - k8s.gcr.io/nginx:latest
   - library/httpd:latest
   - library/nginx:1.25.1
   - library/nginx:1.24.0 
