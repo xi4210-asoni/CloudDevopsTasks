@@ -21,9 +21,11 @@ source /root/work/CloudDevOpsTasks/Task1_ScriptingDockerImagesAirGapped/modules/
 YAML_FILE="/root/work/CloudDevOpsTasks/Task1_ScriptingDockerImagesAirGapped/awsdetails.yaml"
 
 #Getting the files from parse
+parse_yaml_files "$YAML_FILE"
+
 case $CLOUD_PROVIDER in
     "AWS")
-        parse_yaml_files "$YAML_FILE"
+        clear
         ecr_run
         ecr_cache_repo_create
         ;;
@@ -32,6 +34,7 @@ case $CLOUD_PROVIDER in
         ;;
     "AZURE")
         # AZURE Module
+        
         ;;
     *)
         echo "Wrong Cloud Provider"

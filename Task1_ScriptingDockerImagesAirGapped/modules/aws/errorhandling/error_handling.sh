@@ -31,7 +31,7 @@ function show_error() {
     elif [[ $1 -eq 254 ]]; then
         Log INFO $2
     else 
-        Abort $2
+        Abort $1
     fi
 
 }
