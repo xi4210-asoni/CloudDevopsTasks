@@ -1,6 +1,8 @@
 cloud_provider: "AWS"
 cloud_region: "ap-south-1"
 ecr_repo_name: "ecrns"
+ecr_cache_repo_name: "ecrcache"
+ecr_cache_repo_upstream: "registry.k8s.io"
 account_id: "902324519920"
 images_list:
   - k8s.gcr.io/nginx:latest
