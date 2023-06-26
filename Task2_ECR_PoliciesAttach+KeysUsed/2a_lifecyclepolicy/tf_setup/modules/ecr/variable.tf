@@ -3,7 +3,7 @@ variable "regionname" {}
 
 variable "mutability" {
   type    = string
-  default = "MUTABLE"
+  default = "IMMUTABLE"
 }
 
 variable "image_expire_rules" {
