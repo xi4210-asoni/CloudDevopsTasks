@@ -24,12 +24,21 @@
         // ./main.sh  "awsdetails.yaml"   //for reference only
     ```
 
+https://aws.amazon.com/blogs/containers/announcing-pull-through-cache-for-registry-k8s-io-in-amazon-elastic-container-registry/
+
+
 
 ## ECR CACHE PULL THROUGH
 
 Monitors the upstream public repositories - k8s.gcr.io, public.ecr.aws etc.
 Can pull through the updated images available from the communities in the cache repo 
+
+A pull through cache is a way to cache images you use from an upstream repository. Container images are copied and kept up-to-date without giving you a direct dependency on the external registry. If the upstream registry or container image becomes unavailable, then your cached copy can still be used.
+
+A pull through cache is an automatic way to store images in a new repository, when they are requested. The pull through cache automatically creates the image repository in your registry when it’s first requested and keeps the image updated and available for future pulls. You aren’t required to manually identify upstream dependencies or manually sync images when updating your images.
+
 Working
+
 
 ## KANIKO DEPLOYMENTS
 
